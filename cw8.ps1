@@ -151,7 +151,7 @@ $Sub = "CUSTOMERS LOAD - ${TIMESTAMP}"
 $Bod = "Number of rows in downloaded file: $all_lines`n
 Number of correct rows: $no_empty_lines`n
 Number of duplicates: $duplicates`n 
-Number of inserted records: $dane_tabela `n"
+Number of inserted records: $customers_data `n"
 
 $Creds = (Get-Credential -Credential $my_email)
 
